@@ -1,0 +1,104 @@
+
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", serif;
+    background: linear-gradient(to bottom, #001a33, #003366, #004c99);
+    color: white;
+}
+
+/* Main title */
+h1 {
+    color: #66ccff;
+    text-shadow: 2px 2px 10px black;
+    margin-top: 20px;
+}
+
+/* Sub heading */
+h2 {
+    color: #b3e0ff;
+}
+
+/* Form container */
+form {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+    border-radius: 20px;
+    width: 60%;
+    box-shadow: 0 0 25px rgba(0, 170, 255, 0.4);
+    backdrop-filter: blur(6px);
+}
+
+/* Labels */
+label {
+    color: #cceeff;
+    font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #66ccff;
+    border-radius: 10px;
+    outline: none;
+    background: #e6f7ff;
+}
+
+/* Radio & checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 8px;
+    accent-color: #00aaff;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: linear-gradient(#0066cc, #00aaff);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background: linear-gradient(#00aaff, #004c99);
+    transform: scale(1.05);
+}
+
+/* Back button */
+button {
+    background: linear-gradient(#0059b3, #00aaff);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    transform: scale(1.05);
+    background: #66ccff;
+}
+
+/* Footer text */
+h3 {
+    color: #cceeff;
+    margin-top: 20px;
+}
+
+/* Center alignment fix */
+center {
+    display: block;
+}

@@ -1,0 +1,89 @@
+
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", serif;
+    background: linear-gradient(to bottom, #120000, #2a0000);
+    color: white;
+}
+
+/* Main title */
+h1 {
+    color: #d1c8c8;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px black;
+    margin-top: 20px;
+}
+
+/* Horizontal lines */
+hr {
+    width: 90%;
+    border: 2px solid #bb6161;
+    border-radius: 10px;
+}
+
+/* Navigation table */
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(#8b0000, #ff1a1a);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Button hover effect */
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(#ff1a1a, #b30000);
+}
+
+/* Links inside buttons */
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Paragraph / description text */
+h3 {
+    width: 85%;
+    margin: auto;
+    line-height: 1.6;
+    color: #f5d6d6;
+}
+
+/* Images */
+img {
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(255, 0, 0, 0.4);
+    max-width: 80%;
+}
+
+/* Club links (bottom section) */
+h1 a {
+    color: #d75d5d;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h1 a:hover {
+    color: white;
+    text-shadow: 0 0 10px red;
+}
+
+/* Back button */
+center button {
+    margin: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+}

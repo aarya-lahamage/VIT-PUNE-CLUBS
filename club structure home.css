@@ -1,0 +1,108 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(rgba(255, 245, 245, 0.95), rgba(255, 245, 245, 0.95)),
+              url("photos/background extra.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  text-align: center;
+}
+
+/* Main Heading */
+h1 {
+  color: #800000;
+  margin: 20px 0;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+/* Subheadings */
+h2 {
+  color: #a52a2a;
+  margin: 20px 0 10px;
+}
+
+/* Small heading */
+h3 {
+  color: #4d0000;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  max-width: 800px;
+  margin: 10px auto 20px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Divider */
+hr {
+  width: 70%;
+  margin: 20px auto;
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #800000, #b03060);
+  border-radius: 5px;
+}
+
+/* Tables */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+/* Table cells */
+td {
+  padding: 20px;
+  background: #ffffff;
+  border: 2px solid #800000;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+td:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Button */
+button {
+  background: linear-gradient(45deg, #800000, #a52a2a);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin: 30px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+  background: linear-gradient(45deg, #a52a2a, #cc4444);
+  transform: scale(1.05);
+}
+
+/* Link inside button */
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Footer quote */
+h3:last-of-type {
+  margin-top: 20px;
+  font-style: italic;
+}

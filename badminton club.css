@@ -1,0 +1,113 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #2b2b2b; /* charcoal */
+    color: #e0e0e0; /* light grey text */
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #ff3b3b; /* sports red */
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px rgba(255, 59, 59, 0.4);
+}
+
+h3 {
+    text-align: center;
+    color: #cccccc;
+}
+
+/* Paragraph box */
+p {
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #3a3a3a; /* dark grey */
+    border-radius: 12px;
+    border-left: 5px solid #ff3b3b;
+    line-height: 1.7;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 3px solid #ff3b3b;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.5);
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 70%;
+    margin: 20px auto;
+}
+
+li {
+    background: #3a3a3a;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #ff3b3b;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+li:hover {
+    background: #ff3b3b;
+    color: #2b2b2b;
+    transform: translateX(5px);
+}
+
+/* Button */
+button {
+    display: block;
+    margin: 20px auto;
+    background: transparent;
+    color: #ff3b3b;
+    border: 2px solid #ff3b3b;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3b3b;
+    color: #2b2b2b;
+    box-shadow: 0 0 12px rgba(255, 59, 59, 0.5);
+}
+
+/* Link */
+h2 {
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: none;
+    background: #ff3b3b;
+    color: #2b2b2b;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+h2 a:hover {
+    background: #cccccc;
+    color: #2b2b2b;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    height: 2px;
+    width: 65%;
+    margin: 15px auto;
+    background: #ff3b3b;
+    box-shadow: 0 0 10px rgba(255, 59, 59, 0.3);
+}

@@ -1,0 +1,113 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0b1320; /* navy dark */
+    color: #ffffff;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #00f5ff; /* neon cyan */
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #00f5ff;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Paragraph box */
+p {
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #111a2e;
+    border-radius: 12px;
+    border: 1px solid #00f5ff;
+    box-shadow: 0 0 15px rgba(0,245,255,0.2);
+    line-height: 1.7;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 2px solid #00f5ff;
+    box-shadow: 0 0 20px rgba(0,245,255,0.3);
+    width: 300px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 70%;
+    margin: 20px auto;
+}
+
+li {
+    background: #111a2e;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #00f5ff;
+    transition: 0.3s;
+}
+
+/* Hover neon glow */
+li:hover {
+    background: #00f5ff;
+    color: #0b1320;
+    transform: translateX(5px);
+}
+
+/* Button */
+button {
+    display: block;
+    margin: 20px auto;
+    background: transparent;
+    color: #00f5ff;
+    border: 2px solid #00f5ff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00f5ff;
+    color: #0b1320;
+    box-shadow: 0 0 15px #00f5ff;
+}
+
+/* Links */
+h2 {
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #0b1320;
+    background: #00f5ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+h2 a:hover {
+    box-shadow: 0 0 15px #00f5ff;
+}
+
+/* Line */
+hr {
+    border: none;
+    height: 1px;
+    width: 60%;
+    margin: 15px auto;
+    background: #00f5ff;
+    box-shadow: 0 0 10px #00f5ff;
+}

@@ -1,0 +1,63 @@
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-input {
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.form-input.input-error {
+  border: 2px solid red;
+}
+
+.error-msg {
+  display: none;
+  color: red;
+  font-size: 12px;
+}
+
+.submit-btn {
+  padding: 6px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#successModal {
+  display: none;
+}
+
+.modal-box {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  width: 350px;
+}
+
+.modal-icon {
+  font-size: 2rem;
+}
+
+.modal-title {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.modal-message {
+  font-size: 0.9rem;
+  color: gray;
+  margin: 10px 0 20px 0;
+}
+
+#modalCloseBtn {
+  padding: 6px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}

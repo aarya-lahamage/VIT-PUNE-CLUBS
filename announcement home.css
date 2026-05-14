@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(rgba(255, 245, 245, 0.9), rgba(255, 245, 245, 0.9)),
+              url("photos/background extra.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #800000;
+  margin: 20px 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+/* Line */
+hr {
+  width: 70%;
+  margin: 10px auto 30px;
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, #800000, #b03060);
+  border-radius: 5px;
+}
+
+/* Table spacing */
+table {
+  width: 90%;
+  margin: auto;
+  border-spacing: 30px;
+}
+
+/* Text block */
+h3 {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4d0000;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Images */
+img {
+  border-radius: 12px;
+  border: 4px solid #800000;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 30px auto;
+  background: linear-gradient(45deg, #800000, #a52a2a);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #a52a2a, #cc4444);
+  transform: scale(1.05);
+}
+
+/* Link inside button */
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Remove extra styling inside button */
+button h3 {
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  color: white;
+}

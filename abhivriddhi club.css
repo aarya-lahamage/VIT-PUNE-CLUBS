@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+  background: #eef1f2;
+  color: #1f2d2f;
+  text-align: center;
+}
+
+/* Main Heading */
+h1 {
+  font-size: 60px;
+  color: #1c7c72;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+/* Sub Heading */
+h1 + hr + hr + h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  color: #1c7c72;
+}
+
+/* Double Line Effect */
+hr {
+  width: 60%;
+  margin: 10px auto;
+  border: none;
+  height: 3px;
+  background-color: #1c7c72;
+}
+
+/* Paragraph Styling */
+p {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2f3e40;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  border-left: 6px solid #1c7c72;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Image Styling */
+img {
+  margin: 20px 0;
+  border-radius: 20px;
+  border: 3px solid #1c7c72;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  max-width: 300px;
+}
+
+/* Section Headings */
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #1c7c72;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  margin: 20px auto;
+  width: 60%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  border-left: 6px solid #1c7c72;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+li {
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #1c7c72;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #145e57;
+  text-decoration: underline;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1c7c72;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #145e57;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* "Join today" section */
+h2 {
+  margin-top: 10px;
+}

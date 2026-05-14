@@ -1,0 +1,111 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(rgba(0, 50, 0, 0.7), rgba(0, 50, 0, 0.7)),
+              url("photos/tech background final final.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #eaffea;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #00ff88;
+  margin: 20px 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  line-height: 1.7;
+  margin: 20px auto;
+  max-width: 900px;
+  font-size: 17px;
+}
+
+/* Divider */
+hr {
+  border: none;
+  height: 3px;
+  width: 80%;
+  margin: 15px auto;
+  background: linear-gradient(to right, #00ff88, #00cc66);
+  border-radius: 5px;
+}
+
+/* Table layout (menu bar) */
+table {
+  width: 90%;
+  margin: auto;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(45deg, #00cc66, #00994d);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+  background: linear-gradient(45deg, #00ff88, #00cc66);
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Navigation buttons spacing */
+td {
+  padding: 10px;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 4px solid #00cc66;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Club links (big links) */
+h1 a {
+  color: #00ff88;
+  transition: 0.3s;
+}
+
+h1 a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ff88;
+}
+
+/* Back button */
+center button {
+  margin: 30px 0;
+}

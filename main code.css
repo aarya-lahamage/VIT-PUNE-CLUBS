@@ -1,0 +1,126 @@
+
+/* ===== GLOBAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+    background: linear-gradient(135deg, #050816, #0a1a3a, #12002b);
+    color: white;
+}
+
+/* ===== HEADER IMAGE ===== */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* ===== NAVIGATION BAR ===== */
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* NAV BUTTON STYLE */
+button {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 18px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    transform: scale(1.08);
+    background: linear-gradient(90deg, #00c6ff, #7b2ff7);
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+/* LINKS INSIDE BUTTON */
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ===== MAIN TITLE ===== */
+h1 {
+    text-align: center;
+    color: #00c6ff;
+    margin-top: 20px;
+    text-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+/* ===== SUB TEXT ===== */
+h3 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+    color: #d6e6ff;
+}
+
+/* ===== CLUB HEADINGS ===== */
+td h1 a {
+    color: #7b2ff7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+td h1 a:hover {
+    color: #00c6ff;
+    text-shadow: 0 0 10px #00c6ff;
+}
+
+/* ===== LIST ITEMS ===== */
+ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li {
+    padding: 5px;
+    font-size: 18px;
+    color: #e6e6e6;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    color: #00c6ff;
+    transform: translateX(5px);
+}
+
+/* ===== TABLE LAYOUT ===== */
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+/* ===== HR STYLE ===== */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #00c6ff, #7b2ff7);
+    margin: 15px 0;
+}
+
+/* ===== RESPONSIVE (optional improvement) ===== */
+@media (max-width: 768px) {
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    button {
+        margin: 5px;
+    }
+}

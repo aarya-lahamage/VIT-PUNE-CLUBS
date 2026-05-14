@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(rgba(0, 50, 0, 0.7), rgba(0, 50, 0, 0.7)),
+              url("photos/form background image final.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #eaffea;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #00ff88;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ccffdd;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ccffdd;
+}
+
+/* Form container */
+form {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  margin: 20px auto;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Labels */
+label {
+  font-size: 16px;
+}
+
+/* Inputs & Select */
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+  box-shadow: 0 0 8px #00ff88;
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin: 10px 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background: linear-gradient(45deg, #00cc66, #00994d);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(45deg, #00ff88, #00cc66);
+  transform: scale(1.05);
+}
+
+/* Back button */
+button {
+  background: linear-gradient(45deg, #00cc66, #00994d);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #00ff88, #00cc66);
+  transform: scale(1.05);
+}
+
+/* Link inside button */
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

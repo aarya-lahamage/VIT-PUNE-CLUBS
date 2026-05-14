@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="co-curricular form.css" />
+    <link rel="stylesheet" href="forms-extra.css" />
+</head>
+<body background="photos/form background image final.jpg">
+    <h1>
+        <center><font size="9">Registration form</font></center>
+    </h1>
+    <h2><center>Co-Curricular Club</center></h2>
+
+    <center>
+    <form id="cocurricularForm">
+
+        <div class="form-group">
+            <label for="fullName"><b>Name : </b></label>
+            <input type="text" id="fullName" class="form-input" />
+            <span id="nameError" class="error-msg">Name is required.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="Branch"><b>Branch : </b></label>
+            <input type="text" id="Branch" class="form-input" />
+        </div>
+
+        <div class="form-group">
+            <label for="year"><b>Year of Study : </b></label>
+            <select id="year" class="form-input">
+                <option value="default">Select Year</option>
+                <option value="First Year">First Year</option>
+                <option value="Second Year">Second Year</option>
+                <option value="Third Year">Third Year</option>
+                <option value="Fourth Year">Fourth Year</option>
+            </select>
+            <span id="yearError" class="error-msg">Please select your year.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="phone"><b>Contact Number : </b></label>
+            <input type="tel" id="phone" class="form-input" placeholder="e.g. 9876543210" />
+            <span id="phoneError" class="error-msg">Please enter a 10 digit number.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="email"><b>Email : </b></label>
+            <input type="email" id="email" class="form-input" placeholder="e.g. name@example.com" />
+            <span id="emailError" class="error-msg">Please enter a valid email.</span>
+        </div>
+
+        <div class="form-group">
+            <label><b>Gender : </b></label>
+            <br />
+            <input type="radio" id="female" name="gender" /> Female &nbsp;
+            <input type="radio" id="Male" name="gender" /> Male &nbsp;
+            <input type="radio" id="Other" name="gender" /> Other
+        </div>
+
+        <div class="form-group">
+            <label><b>Club you want to join?</b></label>
+            <br /><br />
+            <input type="checkbox" name="club" value="Student Council" /> Student Council <br />
+            <input type="checkbox" name="club" value="SWD" /> SWD Club <br />
+            <input type="checkbox" name="club" value="Speakers" /> Speakers Club <br />
+            <input type="checkbox" name="club" value="Abhivriddhi" /> Abhivriddhi <br />
+        </div>
+
+        <br />
+        <button type="submit" class="submit-btn">Submit</button>
+
+    </form>
+    </center>
+
+    <h3>
+        <center>
+            Team will contact you within 24 hours.<br />Follow @vit_clubs for updates!
+        </center>
+    </h3>
+
+    <center>
+        <a href="main code.html">
+        <button>Back to Home</button>
+        </a>
+    </center>
+
+    <div id="successModal">
+        <div class="modal-box">
+            <div class="modal-icon">✅</div>
+            <h2 class="modal-title">Registration Successful!</h2>
+            <p class="modal-message">You have successfully registered.<br>We will contact you soon.</p>
+            <button id="modalCloseBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="formHandler.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+  background: radial-gradient(circle at top, #02131f, #000814);
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Glowing Title */
+h1 {
+  font-size: 60px;
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff, 0 0 30px #00f7ff, 0 0 60px #00f7ff;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+
+/* Section Text */
+h3 {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px auto;
+  width: 80%;
+  color: #d0faff;
+}
+
+/* Horizontal Line */
+hr {
+  border: 1px solid #00f7ff;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+/* Buttons */
+button {
+  background: transparent;
+  border: 2px solid #00f7ff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00f7ff;
+  box-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff;
+}
+
+/* Links inside buttons */
+button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+button:hover a {
+  color: #32373e;
+}
+
+/* Navigation Table */
+table {
+  margin-top: 10px;
+}
+
+/* Club Links */
+h1 a {
+  text-decoration: none;
+  color: #00f7ff;
+  transition: 0.3s;
+}
+
+h1 a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #00f7ff;
+}
+
+/* Image Styling */
+img {
+  border-radius: 15px;
+  border: 2px solid #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+  margin: 20px 0;
+}
+
+/* Back Button */
+button:last-child {
+  margin: 30px 0;
+  color: rgb(11, 119, 119);
+}
